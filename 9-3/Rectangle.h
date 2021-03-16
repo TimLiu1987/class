@@ -1,21 +1,21 @@
-#ifndef BMI_h
-#define BMI_h
+#ifndef Rectangle_h
+#define Rectangle_h
 #include <iostream>
-#include <string>
-using namespace std;
 
-class BMI
+class Rectangle
 {
 public:
-	BMI();
-	BMI(string name,double newWeigh, double newHeigh);
-	double getBMI();
-	string getName();
-	double getWeight();
-	double getHeight();
+
+	Rectangle();
+
+	Rectangle(double newWidth, double newHeight);
+	
+	void setWidth(double);
+	void setHeight(double);
+
+	double getArea();
+	double getPerimeter();
 private:
-	string name;
-	double weight;
-	double height;
+	double width, height;
 };
 #endif
