@@ -12,7 +12,8 @@ Student 類別中請設計適當建構者和 function: setName、getName、setDa
 
 
 輸入說明：
-主程式建立兩個 Date 物件 birth1(6, 1, 1999) 、birth2(10, 8, 1997)，於主程式再建立兩個 Student 物件 student1("John", birth1, 90) 和student2("Marry", birth2, 80)，然後輸入名字(string)、月(int)、日(int)、年(int)，分別修改 student1 的名字和修改 student2 的生日
+主程式建立兩個 Date 物件 birth1(6, 1, 1999) 、birth2(10, 8, 1997)，於主程式再建立兩個 Student 物件 student1("John", birth1, 90) 和student2("Marry", birth2, 80)
+，然後輸入名字(string)、月(int)、日(int)、年(int)，分別修改 student1 的名字和修改 student2 的生日
 
 
 輸出說明：
